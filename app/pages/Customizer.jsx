@@ -25,6 +25,7 @@ const Customizer = () => {
     });
     // show tab content depending on the activeTab
     const generateTabContent = () => {
+       
         switch (activeEditorTab) {
             case "colorpicker":
                 return <ColorPicker />;
@@ -123,7 +124,8 @@ const Customizer = () => {
                         <div className="flex items-center min-h-screen">
                             <div className="editortabs-container tabs">
                                 {EditorTabs.map((tab) => (
-                                    <Tab key={tab.name} tab={tab} handleClick={() => setActiveEditorTab(tab.name)} />
+                                    <Tab key={tab.name} tab={tab} handleClick={() =>setActiveEditorTa(activeEditorTab ? null : tab.name)    
+                                    } />
                                 ))}
 
                                 {generateTabContent()}
