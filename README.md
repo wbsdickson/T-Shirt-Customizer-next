@@ -1,3 +1,11 @@
+This project is a NextJS version of a React Project [T-Shirt-Customizer](https://github.com/wbsdickson/T-Shirt-Customizer)
+
+## DEMO
+
+
+![Preview](https://live.staticflickr.com/65535/53076444591_a258d62708_b.jpg)
+![Preview](https://live.staticflickr.com/65535/53076968103_e0178bb533_c.jpg)
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
